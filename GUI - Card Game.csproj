@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +79,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ace_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ace_of_spades1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10_of_spades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jack_of_spades2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\queen_of_spades2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\king_of_spades2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card_back.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
